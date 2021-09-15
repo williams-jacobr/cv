@@ -1,0 +1,11 @@
+{
+  "name": "cv-website",
+  "version": "1.0.0",
+  "description": "A website to distribute as my CV",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jacob Williams",
+  "license": "ISC"
+}
