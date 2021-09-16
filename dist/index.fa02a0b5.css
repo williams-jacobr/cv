@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  overflow: auto;
+}
+
+.main_container {
+  height: 200%;
+  width: 80%;
+  margin: 5% 10%;
+  -moz-box-shadow: 0 0 20px grey;
+  -webkit-box-shadow: 0 0 20px grey;
+  box-shadow: 0 0 20px grey;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+}
+.main_container .content_container {
+  border: solid black 1px;
+  margin: 5%;
+  flex: 1 1 50%;
+}
+.main_container .info_container {
+  border: solid black 1px;
+  margin: 5%;
+  flex: 1 0 25%;
+}
+/*# sourceMappingURL=index.fa02a0b5.css.map */
