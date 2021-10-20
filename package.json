@@ -2,6 +2,10 @@
   "homepage": "https://williams-jacobr.github.io/cv",
   "name": "cv-website",
   "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/williams-jacobr/cv.git"
+  },
   "description": "A website to distribute as my CV",
   "default": "index.html",
   "scripts": {
@@ -11,6 +15,7 @@
   "author": "Jacob Williams",
   "license": "ISC",
   "devDependencies": {
+    "@parcel/transformer-image": "^2.0.0-rc.0",
     "@parcel/transformer-sass": "^2.0.0-rc.0",
     "parcel": "^2.0.0-rc.0",
     "sass": "^1.41.0"
